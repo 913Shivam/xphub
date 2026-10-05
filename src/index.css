@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+    /* XP-HUB palette: reuse these tokens for new screens and components. */
+    --color-bgcolor: #F8F9FE;
+    --color-bgcolorsecond: #F9FAFB;
+    --color-primary: #4648D4;
+    --color-textColor: #45556c;
+    --color-xp-canvas: #f7f8fa;
+    --color-xp-header: #fafbfc;
+    --color-xp-panel: #fafbfe;
+    --color-xp-hover-bg: #fafaff;
+    --color-xp-primary: #4c4bd9;
+    --color-xp-primary-hover: #4241c7;
+    --color-xp-action: #5654df;
+    --color-xp-action-hover: #4846cf;
+    --color-xp-link: #5b5be7;
+    --color-xp-heading: #182033;
+    --color-xp-title: #14213d;
+    --color-xp-ink: #17213a;
+    --color-xp-secondary-ink: #243653;
+    --color-xp-icon: #52678a;
+    --color-xp-icon-strong: #344665;
+    --color-xp-muted: #55709c;
+    --color-xp-progress-track: #dbe4f5;
+    --color-xp-progress-ring: #e5e7ff;
+    --color-xp-progress-idle: #e8eef9;
+    --color-xp-selection: #eef1ff;
+    --color-xp-selection-border: #aeb3ff;
+    --color-xp-icon-bg: #e3ecff;
+    --color-xp-card-icon-bg: #edf2ff;
+    --color-xp-badge-bg: #e7efff;
+    --color-xp-about-icon-bg: #e3ebfb;
+    --color-xp-identity-icon-bg: #e4edff;
+    --color-xp-focus-placeholder: #bfc6d8;
+    --color-xp-auth-placeholder: #c5c4d9;
+    --color-xp-auth-gradient-start: #e4e8ff;
+    --color-xp-auth-gradient-middle: #eef2ff;
+    --color-xp-auth-gradient-end: #ddd2ff;
+    --color-xp-auth-icon: #5354e8;
+    --color-xp-auth-divider: #d5d7eb;
+    --color-xp-linkedin: #0a66c2;
+}
+
+@layer components {
+    .hover-btn {
+        @apply cursor-pointer text-textColor transition-colors;
+    }
+
+    .hover-btn:hover {
+        @apply text-primary;
+    }
+
+    .hover-btn:hover svg {
+        color: var(--color-primary);
+    }
+
+    .input-field{
+        @apply border border-slate-200 p-2 w-full rounded-lg
+    }
+}

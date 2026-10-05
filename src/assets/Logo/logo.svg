@@ -1,0 +1,65 @@
+
+<svg
+    width="40"
+    height="35"
+    viewBox="0 0 100 100"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    {/* Connecting lines */}
+    <path
+    d="M50 50L50 20M50 50L25 38M50 50L75 38M50 50L32 72M50 50L68 72"
+    stroke="#4545D9"
+    strokeWidth="6"
+    strokeLinecap="round"
+    />
+
+    {/* Center circle */}
+    <circle
+    cx="50"
+    cy="50"
+    r="11"
+    fill="#4545D9"
+    />
+
+    {/* Top circle */}
+    <circle
+    cx="50"
+    cy="18"
+    r="9"
+    fill="#4545D9"
+    />
+
+    {/* Left circle */}
+    <circle
+    cx="25"
+    cy="38"
+    r="9"
+    fill="#4545D9"
+    />
+
+    {/* Right circle */}
+    <circle
+    cx="75"
+    cy="38"
+    r="9"
+    fill="#4545D9"
+    />
+
+    {/* Bottom-left circle */}
+    <circle
+    cx="32"
+    cy="72"
+    r="9"
+    fill="#4545D9"
+    />
+
+    {/* Bottom-right circle */}
+    <circle
+    cx="68"
+    cy="72"
+    r="9"
+    fill="#4545D9"
+    />
+</svg>
+ 
